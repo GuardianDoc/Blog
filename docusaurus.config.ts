@@ -66,7 +66,7 @@ const config: Config = {
       maxHeadingLevel: 5,
     },
     navbar: {
-      title: 'My Site',
+      title: 'My Site1',
       logo: {
         alt: 'My Site Logo',
         src: 'img/favicon.jpg',
