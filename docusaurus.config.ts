@@ -78,7 +78,7 @@ const config: Config = {
           position: 'left',
           label: '渗透测试',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        //{to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
