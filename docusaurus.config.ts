@@ -3,20 +3,19 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Test',
-  tagline: 'Dinosaurs are cool',
+  title: 'JTZ',
+  tagline: '',
   favicon: 'img/favicon.jpg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://blog.guardian-jtz.top/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'JTZ', // Usually your GitHub org/user name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,15 +40,11 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -60,15 +55,15 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/favicon.jpg',
+    image: 'img/docusaurus-social-card.jpg',
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 5,
     },
     navbar: {
-      title: 'My Site1',
+      title: 'JTZ',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'JTZ Logo',
         src: 'img/favicon.jpg',
       },
       items: [
@@ -77,10 +72,51 @@ const config: Config = {
           sidebarId: 'penetrationSidebar',
           position: 'left',
           label: '渗透测试',
+        },{
+          type: 'docSidebar',
+          sidebarId: 'developSidebar',
+          position: 'left',
+          label: '⌨️ 开发',
+        },{
+          type: 'docSidebar',
+          sidebarId: 'toolsSidebar',
+          position: 'left',
+          label: '⚒️ Tools',
+        },{
+          type: 'docSidebar',
+          sidebarId: 'helpSidebar',
+          position: 'left',
+          label: '💡 Help',
+        },{
+          to: '/docs/tags/',
+          label: '🏷️ Tags',
+          position: 'right',
         },
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          label: 'Blog',
+          position: 'right',
+          items: [
+            {
+              to: '/docs/intro',
+              label: '关于我',
+            },{
+              to: 'https://writeup.guardian-jtz.top/',
+              label: 'WriteUP Blog',
+            }
+          ]
+        },{
+          label: 'MISC',
+          position: 'right',
+          items: [
+            {
+              href: 'https://pan.baidu.com/s/1PNvMPQsc-F70Lyk7ZNsRrA?pwd=f228',
+              label: '资源',
+            }
+          ]
+        },
+        {
+          href: 'https://github.com/GuardianDoc',
           label: 'GitHub',
           position: 'right',
         },
@@ -98,23 +134,23 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     {
+        //       label: 'Twitter',
+        //       href: 'https://twitter.com/docusaurus',
+        //     },
+        //   ],
+        // },
         {
           title: 'More',
           items: [

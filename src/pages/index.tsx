@@ -16,6 +16,9 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Heading as="h2">欢迎来到 JTZ 博客</Heading>
+        </div>
       </div>
     </header>
   );

@@ -1,0 +1,8 @@
+{
+  "label": "日常使用工具",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "记录关于在日常生活中会使用到的工具&扩展&配置"
+  }
+}
