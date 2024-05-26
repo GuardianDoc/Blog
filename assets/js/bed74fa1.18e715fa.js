@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_github_io=self.webpackChunkblog_github_io||[]).push([[2727],{4884:s=>{s.exports=JSON.parse('{"tag":{"label":"MDX","permalink":"/docs/tags/mdx","allTagsPath":"/docs/tags","count":1,"items":[{"id":"help/Docusaurus/MDX/intro","title":"MDX","description":"MDX \u4ecb\u7ecd","permalink":"/docs/help/Docusaurus/MDX/intro"}],"unlisted":false}}')}}]);
