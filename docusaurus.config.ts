@@ -38,6 +38,10 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          admonitions: {
+            keywords: ['question'],
+            extendDefaults: true,
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
@@ -164,8 +168,14 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.github,
+      theme: prismThemes.dracula,
       darkTheme: prismThemes.dracula,
+      additionalLanguages: [
+        'java',
+        'bash',
+        'http',
+        'php',
+      ],
     },
   } satisfies Preset.ThemeConfig,
 };
