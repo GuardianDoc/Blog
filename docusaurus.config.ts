@@ -39,7 +39,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           admonitions: {
-            keywords: ['question'],
+            keywords: ['question', 'podcast', 'newsletter', 'book'],
             extendDefaults: true,
           },
           // Please change this to your repo.
@@ -75,12 +75,22 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'penetrationSidebar',
           position: 'left',
-          label: '渗透测试',
+          label: '⚔️ 渗透测试',
+        },{
+          type: 'docSidebar',
+          sidebarId: 'blueSidebar',
+          position: 'left',
+          label: '🛡️ 蓝队监测',
         },{
           type: 'docSidebar',
           sidebarId: 'developSidebar',
           position: 'left',
           label: '⌨️ 开发',
+        },{
+          type: 'docSidebar',
+          sidebarId: 'tetralogySidebar',
+          position: 'left',
+          label: '🎹 四部曲',
         },{
           type: 'docSidebar',
           sidebarId: 'toolsSidebar',

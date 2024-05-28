@@ -1,6 +1,6 @@
 {
   "label": "OWASP Web",
-  "position": 2,
+  "position": 3,
   "link": {
     "type": "generated-index",
     "description": "记录关于 Web 渗透测试相关文档"

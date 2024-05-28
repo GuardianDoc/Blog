@@ -1,0 +1,8 @@
+{
+  "label": "网络攻击",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "记录关于网络攻击相关技术以及服务技术"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "kerberos",
+  "position": 88,
+  "link": {
+    "type": "generated-index",
+    "description": "kerberos 技术介绍以及相关漏洞利用技术"
+  }
+}

@@ -141,40 +141,7 @@ import ProgressBar from '@site/src/components/ProgressBar/ProgressBar';
 
 
 </Tabs>
-### 图标
-> 可以直接从 [Iconify](https://docusaurus.community/knowledge/design/icons/iconify/) 进行查看
 
-
-<Tabs>
-  <TabItem value="示例" label="示例" default>
-    <IIcon icon="mdi:github" height="25" /> This is a GitHub icon.
-  </TabItem>
-  <TabItem value="配置" label="配置">
-    ```bash
-    npm install --save @iconify/react
-    ```
-
-    ```js
-    // src/theme/MDXComponents.js
-    import React from 'react';
-    // Import the original mapper
-    import MDXComponents from '@theme-original/MDXComponents';
-    import { Icon } from '@iconify/react'; // Import the entire Iconify library.
-
-    export default {
-      // Re-use the default mapping
-      ...MDXComponents,
-      IIcon: Icon, // Make the iconify Icon component available in MDX as <icon />.
-    };
-    ```
-  </TabItem>
-  <TabItem value="Use" label="使用">
-    ```mdx
-    // test.mdx
-    <IIcon icon="mdi:github" height="25" /> This is a GitHub icon.
-    ```
-  </TabItem>
-</Tabs>
 
 
 

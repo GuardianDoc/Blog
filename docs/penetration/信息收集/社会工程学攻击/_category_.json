@@ -1,0 +1,8 @@
+{
+  "label": "社会工程学攻击",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "记录社会工程学攻击手段"
+  }
+}
