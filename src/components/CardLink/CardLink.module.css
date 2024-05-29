@@ -33,7 +33,7 @@
 
 .cardButton {
     background-color: var(--ifm-color-secondary) !important;
-    color: white !important;
+    color: blue !important;
     font-size: 1rem;
     height: 25px;
     width: 33.33%;

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./ImageCard.module.css";
+import styles from "./CardLink.module.css";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import { AiOutlineArrowRight } from 'react-icons/ai';
@@ -12,7 +12,7 @@ interface CardProps {
     linkUrl: string;
 }
 
-const ImageCard: React.FC<CardProps> = ({
+const CardLink: React.FC<CardProps> = ({
     title,
     description,
     imageUrl,
@@ -57,4 +57,4 @@ const ImageCard: React.FC<CardProps> = ({
     )
 }
 
-export default ImageCard
+export default CardLink
