@@ -9,5 +9,5 @@ description: 基于一个强大的电路模拟器而开发的。 这个电路模
 Turing Complete 对于学习计算机组成原理有很大的帮助, 在 Steam 中需要花费 70 大洋, 我在国外网站搜索到了对应的破解版, 请放在虚拟机中运行.
 
 :::tip
-对应的破解版可以前往 <IIcon icon="arcticons:baidu-netdisk" height="25" /> [共享资料/Resources/Games/Turing Complete.zip](https://pan.baidu.com/s/1PNvMPQsc-F70Lyk7ZNsRrA?pwd=f228)
+对应的破解版可以前往 [共享资料/Resources/Games/Turing Complete.zip](https://pan.baidu.com/s/1PNvMPQsc-F70Lyk7ZNsRrA?pwd=f228)
 :::
