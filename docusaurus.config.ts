@@ -185,6 +185,7 @@ const config: Config = {
         'bash',
         'http',
         'php',
+        'PowerShell',
       ],
     },
   } satisfies Preset.ThemeConfig,
