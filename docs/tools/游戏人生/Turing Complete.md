@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 tags: [Game]
 title: Turing Complete
 description: 基于一个强大的电路模拟器而开发的。 这个电路模拟器允许你自由发挥想象力，以不同的解法通过各个关卡，或以自己喜欢的方式搭建属于自己的计算机。 
