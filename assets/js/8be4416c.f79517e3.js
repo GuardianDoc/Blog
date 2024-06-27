@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_github_io=self.webpackChunkblog_github_io||[]).push([[1922],{5214:s=>{s.exports=JSON.parse('{"tag":{"label":"CORS","permalink":"/docs/tags/cors","allTagsPath":"/docs/tags","count":1,"items":[{"id":"penetration/OWASP  WEB/5","title":"CORS","description":"CORS","permalink":"/docs/owaspweb/5"}],"unlisted":false}}')}}]);
