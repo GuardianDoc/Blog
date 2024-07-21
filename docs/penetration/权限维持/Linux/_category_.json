@@ -1,0 +1,8 @@
+{
+  "label": "Linux",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "记录关于 Linux 系统权限维持的手段"
+  }
+}

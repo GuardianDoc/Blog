@@ -98,6 +98,11 @@ const config: Config = {
           label: '⚒️ Tools',
         },{
           type: 'docSidebar',
+          sidebarId: 'miscSidebar',
+          position: 'left',
+          label: '📚 MISC',
+        },{
+          type: 'docSidebar',
           sidebarId: 'helpSidebar',
           position: 'left',
           label: '💡 Help',
@@ -106,6 +111,9 @@ const config: Config = {
           label: '🏷️ Tags',
           position: 'right',
         },
+
+
+        
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
           label: 'Blog',
